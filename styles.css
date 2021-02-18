@@ -1,0 +1,73 @@
+body {
+  background: rgba(232, 215, 200, 1);
+  color: rgba(20, 20, 20);
+  font-size: 25px;
+  font-family: Helvetica;
+  margin: 0;
+}
+h1 {
+  font-weight: lighter;
+  font-size: 50px;
+}
+h2 {
+  font-size: 16px;
+}
+p {
+  font-weight: lighter;
+  font-size: 18px;
+}
+a {
+  color: #313131;
+  font-weight: 900;
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(47, 36, 58, 1);
+}
+#banner {
+  text-align: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("images/banner.jpg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer {
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.card {
+  background: transparent;
+  border: none;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
